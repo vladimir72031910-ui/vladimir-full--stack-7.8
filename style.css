@@ -21,7 +21,7 @@ body {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    max-width: 400px;
+    max-width: 320px;
     width: 100%;
     height: 1050px;
     background-color: rgb(255, 255, 255);
@@ -143,4 +143,34 @@ body {
 
 .language__color1 {
     color: #7e7e82;
+}
+
+
+.filter__button {
+    border: none;
+    background: none;
+    transition: opacity 1s transform ease-in-out;
+}
+
+.filter__button:hover {
+    opacity: 0.5;
+    transform: translateY(-10px);
+}
+
+
+.filter__button2 {
+    border: none;
+    background: none;
+}
+
+.filter__button2:hover {
+    transition: transform 0.1s ease-in-out;
+    transform: scale(1.2);
+}
+
+
+.logot:hover {
+    transition: transform 1s ease-out;
+    transform: perspective(100px) rotateX(350deg);
+
 }
